@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<title>CCLab Week One : Javascript</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<!-- jQuery -->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.11.1/jquery-ui.min.js"></script>
+</head>
+<body>
+
+	<div id="myAwesomeToDoList">
+		<h1>Awesome JS To Do List</h1>
+				
+		<div id="taskAdder">
+			<form>
+				<input type="text" id="newTask" >
+				<input type="submit" id="addButton" value="ADD">
+			</form>
+		</div>
+
+		<div id="taskList">
+		</div>
+	
+	</div>
+	
+	<div class="icons">
+    	<img class="icon01" src="images/icon1.jpg">
+    </div>
+	
+	<script src="script.js"></script>
+	<script>
+        $('#myAwesomeToDoList').hover ( function(){    
+        	$('.icon01').toggleClass('show',400,'easeOutElastic');
+    	} );
+    </script>
+</body>
+
+            
+           
+            
+            
+        
+        </html>
